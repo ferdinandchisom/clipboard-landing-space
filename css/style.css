@@ -1,0 +1,486 @@
+h1,
+h2,
+h3 {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #40514e;
+}
+/*ALL on title section */
+#title {
+  padding: 5% 10%;
+  text-align: center;
+  justify-content: center;
+}
+.dommy {
+  font-size: 600;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.btn-cola {
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #77e4c8;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.btn-cola:hover {
+  opacity: 0.9;
+}
+.btn-cola:focus {
+  outline: 3px dotted #77e4c8;
+}
+.btn-cola:hover {
+  outline-offset: 5px;
+}
+.btn-dola {
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #4535c1;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.btn-dola:hover {
+  opacity: 0.9;
+}
+.btn-dola:focus {
+  outline: 3px dotted #4535c1;
+}
+.btn-dola:hover {
+  outline-offset: 5px;
+}
+/***snippets section**/
+.chippy {
+  width: 25%;
+  padding-top: 2%;
+  margin-left: 18%;
+}
+.chippy-lo {
+  width: 25%;
+}
+.logo-img {
+  width: 10%;
+}
+
+.trak {
+  padding-top: 8%;
+}
+#molly {
+  float: right;
+  line-height: 0.8rem;
+  margin-right: 20%;
+}
+.longeray {
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  text-align: left;
+}
+#molly > P {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: small;
+  color: #40514e;
+  line-height: 1.5rem;
+}
+.trak > p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: small;
+  color: #40514e;
+  line-height: 1.5rem;
+}
+.history > p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: small;
+  color: #40514e;
+  line-height: 1.5rem;
+}
+
+/** clipboard section **/
+#clipboard {
+  padding: 7% 15%;
+  text-align: center;
+  justify-content: center;
+}
+.chippy-2 {
+  width: 25%;
+  padding-top: 8%;
+}
+.fave {
+  padding-bottom: 7%;
+  text-align: center;
+  justify-content: center;
+}
+#clipboard > p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: small;
+  color: #40514e;
+  line-height: 1.5rem;
+}
+.chiko > p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: small;
+  color: #40514e;
+  line-height: 1.5rem;
+}
+
+/** features **/
+#features {
+  padding: 75px;
+}
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 80px 30px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.card {
+  max-width: 350px;
+  justify-self: center;
+}
+.card-head {
+  height: 75px;
+}
+.mima {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: small;
+  color: #40514e;
+  line-height: 1.5rem;
+}
+
+.lolo {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: small;
+  color: #40514e;
+  line-height: 1.5rem;
+}
+.lola {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: small;
+  color: #40514e;
+  line-height: 1.5rem;
+}
+.loho {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: small;
+  color: #40514e;
+  line-height: 1.5rem;
+}
+
+/** press-section **/
+#press-section {
+  padding: 85px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-gap: 70px 80px;
+  margin-bottom: 5%;
+}
+#press-section img {
+  place-self: center;
+}
+/** "mac-ios" **/
+#mac-ios {
+  padding: 5% 10%;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+#mac-ios > p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: small;
+  color: #40514e;
+  line-height: 1.5rem;
+}
+/** "footer" **/
+#footer {
+  padding: 45px;
+  background-color: rgba(243, 233, 233, 0.333);
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) 4fr minmax(170px, 1fr);
+}
+.footer-logo {
+  width: 55px;
+}
+.links {
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(120px, 120px));
+  grid-gap: 20px 70px;
+}
+.links a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #40514e;
+  text-decoration: none;
+}
+.links a :hover {
+  color: cyan;
+}
+.link a:focus .social-link a:focus {
+  outline: 3px dotted #0005;
+  outline-offset: 5px;
+}
+.social-link {
+  place-self: center flex-end;
+}
+.social-link a {
+  font-size: 27px;
+  color: "natural-dark-blue";
+  margin-left: 20px;
+}
+.social-link a:not(:last-child) {
+  margin-left: 20px;
+}
+
+@media (max-width: 1000px) {
+  #title .logo-img {
+    width: 30%;
+  }
+  .chippy {
+    width: 50%;
+    justify-self: center;
+    margin: 20%;
+  }
+  #molly {
+    float: none;
+    line-height: 1.2rem;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 26%;
+    justify-content: center;
+  }
+  .chiko {
+    justify-self: center;
+  }
+  .chippy-2 {
+    width: 50%;
+    margin: 20%;
+    justify-self: center;
+    justify-content: center;
+  }
+  .fave {
+    padding-bottom: 30%;
+  }
+  .card-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-gap: 150px 120px;
+    text-align: center;
+  }
+  #footer {
+    padding: 10px;
+    background-color: rgba(241, 232, 232, 0.333);
+    display: grid;
+    grid-template-columns: minmax(75px, 1fr) 4fr minmax(60px, 1fr);
+  }
+  .footer-logo {
+    width: 70px;
+  }
+  .links {
+    max-width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(70px, 70px));
+    grid-gap: 5px 30px;
+  }
+  .links a {
+    font-size: 20px;
+    font-weight: 100;
+    color: #40514e;
+    text-decoration: none;
+  }
+  .links a :hover {
+    color: cyan;
+  }
+  .link a:focus .social-link a:focus {
+    outline: 3px dotted #0005;
+    outline-offset: 5px;
+  }
+  .social-link {
+    place-self: center flex-end;
+  }
+  .social-link a {
+    font-size: 27px;
+    color: "natural-dark-blue";
+    margin-left: 5px;
+  }
+  .social-link a:not(:last-child) {
+    margin-left: 5px;
+  }
+  #mac-ios > p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  #clipboard > p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .chiko > p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  #molly > P {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .trak > p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .history > p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .lolo {
+    font-family: "Bai Jamjuree", sans-serif;
+    font: size 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .lola {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .loho {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .mima {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn-cola {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  #footer {
+    padding: 5px;
+    grid-template-columns: 1fr;
+    place-items: center;
+    grid-gap: 50px 0;
+  }
+  .links {
+    max-width: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 30px 40px;
+  }
+  .social-link {
+    place-items: center;
+    justify-self: center;
+  }
+  .social-link a:not(:last-child) {
+    margin-right: 10px;
+  }
+  .card-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 200px 170px;
+    text-align: center;
+  }
+  .footer-logo {
+    width: 80px;
+    margin-top: 15px;
+  }
+  .h1 {
+    font-size: xx-large;
+  }
+  .h2 {
+    font-size: x-large;
+  }
+  .h3 {
+    font-size: xx-large;
+  }
+  header {
+    background: url(./images/bg-header-mobile.png) no-repeat;
+    background-size: 100%;
+    padding: 120px 30px 60px;
+  }
+  .logo-img {
+    width: 60%;
+  }
+  .chippy {
+    width: 70%;
+    justify-self: center;
+    margin: 20%;
+    align-items: center;
+  }
+  .chippy-2 {
+    width: 70%;
+    margin: 20%;
+  }
+  .lolo {
+    font-family: "Bai Jamjuree", sans-serif;
+    font: size 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .lola {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .loho {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  #mac-ios > p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  #clipboard > p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .chiko > p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  #molly > P {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .trak > p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+  .history > p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    color: #40514e;
+    line-height: 1.5rem;
+  }
+}
